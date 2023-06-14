@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "fejka-artificial-potted-plant-in-outdoor-monstera__0614197_pe686822_s5@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "fejka-artificial-potted-plant-in-outdoor-monstera__0614197_pe686822_s5@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "fejka-artificial-potted-plant-in-outdoor-monstera__0614197_pe686822_s5@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
