@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841A44C02A3A745B0023CEFA /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A44BF2A3A745B0023CEFA /* UsersViewController.swift */; };
+		841A44C22A3A8FBD0023CEFA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A44C12A3A8FBD0023CEFA /* ContactsViewController.swift */; };
+		841A44C62A3A9A6D0023CEFA /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A44C52A3A9A6D0023CEFA /* NumbersViewController.swift */; };
 		845B30062A390CC8004D6C7E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30052A390CC8004D6C7E /* TableViewController.swift */; };
 		845B30082A3925C5004D6C7E /* HomeTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30072A3925C5004D6C7E /* HomeTableViewCellController.swift */; };
 		845B300A2A3928C3004D6C7E /* HomeFruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30092A3928C3004D6C7E /* HomeFruitTableViewController.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841A44BF2A3A745B0023CEFA /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		841A44C12A3A8FBD0023CEFA /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		841A44C52A3A9A6D0023CEFA /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		845B30052A390CC8004D6C7E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		845B30072A3925C5004D6C7E /* HomeTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellController.swift; sourceTree = "<group>"; };
 		845B30092A3928C3004D6C7E /* HomeFruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFruitTableViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				84FD58E62A36721E006CB5FF /* Info.plist */,
 				845B30072A3925C5004D6C7E /* HomeTableViewCellController.swift */,
 				845B30092A3928C3004D6C7E /* HomeFruitTableViewController.swift */,
+				841A44BF2A3A745B0023CEFA /* UsersViewController.swift */,
+				841A44C12A3A8FBD0023CEFA /* ContactsViewController.swift */,
+				841A44C52A3A9A6D0023CEFA /* NumbersViewController.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -267,10 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841A44C62A3A9A6D0023CEFA /* NumbersViewController.swift in Sources */,
+				841A44C02A3A745B0023CEFA /* UsersViewController.swift in Sources */,
 				84FD58DD2A36721B006CB5FF /* ViewController.swift in Sources */,
 				845B300A2A3928C3004D6C7E /* HomeFruitTableViewController.swift in Sources */,
 				84FD58D92A36721B006CB5FF /* AppDelegate.swift in Sources */,
 				84FD58DB2A36721B006CB5FF /* SceneDelegate.swift in Sources */,
+				841A44C22A3A8FBD0023CEFA /* ContactsViewController.swift in Sources */,
 				845B30062A390CC8004D6C7E /* TableViewController.swift in Sources */,
 				845B30082A3925C5004D6C7E /* HomeTableViewCellController.swift in Sources */,
 			);
