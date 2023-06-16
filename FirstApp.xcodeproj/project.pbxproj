@@ -10,6 +10,13 @@
 		841A44C02A3A745B0023CEFA /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A44BF2A3A745B0023CEFA /* UsersViewController.swift */; };
 		841A44C22A3A8FBD0023CEFA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A44C12A3A8FBD0023CEFA /* ContactsViewController.swift */; };
 		841A44C62A3A9A6D0023CEFA /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A44C52A3A9A6D0023CEFA /* NumbersViewController.swift */; };
+		842740562A3BB84700CDF8BD /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842740552A3BB84700CDF8BD /* CitiesTableViewController.swift */; };
+		842740582A3BB86800CDF8BD /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842740572A3BB86800CDF8BD /* CitiesTableViewCell.swift */; };
+		8427405A2A3BC1CE00CDF8BD /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842740592A3BC1CE00CDF8BD /* CountriesViewController.swift */; };
+		8427405C2A3BCC9500CDF8BD /* PlantsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427405B2A3BCC9500CDF8BD /* PlantsCollectionViewController.swift */; };
+		8427405E2A3BCCB000CDF8BD /* PlantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427405D2A3BCCB000CDF8BD /* PlantCollectionViewCell.swift */; };
+		842740602A3BE4FE00CDF8BD /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427405F2A3BE4FE00CDF8BD /* SliderCollectionViewCell.swift */; };
+		842740622A3BE52800CDF8BD /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842740612A3BE52800CDF8BD /* SliderViewController.swift */; };
 		845B30062A390CC8004D6C7E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30052A390CC8004D6C7E /* TableViewController.swift */; };
 		845B30082A3925C5004D6C7E /* HomeTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30072A3925C5004D6C7E /* HomeTableViewCellController.swift */; };
 		845B300A2A3928C3004D6C7E /* HomeFruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30092A3928C3004D6C7E /* HomeFruitTableViewController.swift */; };
@@ -45,6 +52,13 @@
 		841A44BF2A3A745B0023CEFA /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		841A44C12A3A8FBD0023CEFA /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		841A44C52A3A9A6D0023CEFA /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		842740552A3BB84700CDF8BD /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		842740572A3BB86800CDF8BD /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
+		842740592A3BC1CE00CDF8BD /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		8427405B2A3BCC9500CDF8BD /* PlantsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsCollectionViewController.swift; sourceTree = "<group>"; };
+		8427405D2A3BCCB000CDF8BD /* PlantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCollectionViewCell.swift; sourceTree = "<group>"; };
+		8427405F2A3BE4FE00CDF8BD /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		842740612A3BE52800CDF8BD /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		845B30052A390CC8004D6C7E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		845B30072A3925C5004D6C7E /* HomeTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellController.swift; sourceTree = "<group>"; };
 		845B30092A3928C3004D6C7E /* HomeFruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFruitTableViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +138,13 @@
 				841A44BF2A3A745B0023CEFA /* UsersViewController.swift */,
 				841A44C12A3A8FBD0023CEFA /* ContactsViewController.swift */,
 				841A44C52A3A9A6D0023CEFA /* NumbersViewController.swift */,
+				842740552A3BB84700CDF8BD /* CitiesTableViewController.swift */,
+				842740572A3BB86800CDF8BD /* CitiesTableViewCell.swift */,
+				842740592A3BC1CE00CDF8BD /* CountriesViewController.swift */,
+				8427405B2A3BCC9500CDF8BD /* PlantsCollectionViewController.swift */,
+				8427405D2A3BCCB000CDF8BD /* PlantCollectionViewCell.swift */,
+				8427405F2A3BE4FE00CDF8BD /* SliderCollectionViewCell.swift */,
+				842740612A3BE52800CDF8BD /* SliderViewController.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -276,15 +297,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842740602A3BE4FE00CDF8BD /* SliderCollectionViewCell.swift in Sources */,
+				8427405E2A3BCCB000CDF8BD /* PlantCollectionViewCell.swift in Sources */,
 				841A44C62A3A9A6D0023CEFA /* NumbersViewController.swift in Sources */,
 				841A44C02A3A745B0023CEFA /* UsersViewController.swift in Sources */,
 				84FD58DD2A36721B006CB5FF /* ViewController.swift in Sources */,
+				8427405C2A3BCC9500CDF8BD /* PlantsCollectionViewController.swift in Sources */,
 				845B300A2A3928C3004D6C7E /* HomeFruitTableViewController.swift in Sources */,
+				842740622A3BE52800CDF8BD /* SliderViewController.swift in Sources */,
+				842740582A3BB86800CDF8BD /* CitiesTableViewCell.swift in Sources */,
 				84FD58D92A36721B006CB5FF /* AppDelegate.swift in Sources */,
 				84FD58DB2A36721B006CB5FF /* SceneDelegate.swift in Sources */,
+				842740562A3BB84700CDF8BD /* CitiesTableViewController.swift in Sources */,
 				841A44C22A3A8FBD0023CEFA /* ContactsViewController.swift in Sources */,
 				845B30062A390CC8004D6C7E /* TableViewController.swift in Sources */,
 				845B30082A3925C5004D6C7E /* HomeTableViewCellController.swift in Sources */,
+				8427405A2A3BC1CE00CDF8BD /* CountriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
