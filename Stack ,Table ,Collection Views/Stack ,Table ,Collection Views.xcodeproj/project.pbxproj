@@ -74,7 +74,7 @@
 		84F0CCB52A3CE473002B4FA4 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		84F0CCB72A3CE4A2002B4FA4 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 		84F0CCB92A3CE4DD002B4FA4 /* PhotosCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionReusableView.swift; sourceTree = "<group>"; };
-		84FD58D52A36721B006CB5FF /* Stack ,Taple ,Collection Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack ,Taple ,Collection Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD58D52A36721B006CB5FF /* Stack ,Table ,Collection Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack ,Table ,Collection Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD58D82A36721B006CB5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FD58DA2A36721B006CB5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84FD58DC2A36721B006CB5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,9 +82,9 @@
 		84FD58E12A36721D006CB5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FD58E42A36721E006CB5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FD58E62A36721E006CB5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84FD58EB2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack ,Taple ,Collection ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD58EB2A36721E006CB5FF /* Stack ,Table ,Collection ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack ,Table ,Collection ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD58EF2A36721E006CB5FF /* FirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppTests.swift; sourceTree = "<group>"; };
-		84FD58F52A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack ,Taple ,Collection ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD58F52A36721E006CB5FF /* Stack ,Table ,Collection ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack ,Table ,Collection ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD58F92A36721E006CB5FF /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		84FD58FB2A36721E006CB5FF /* FirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,9 +127,9 @@
 		84FD58D62A36721B006CB5FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84FD58D52A36721B006CB5FF /* Stack ,Taple ,Collection Views.app */,
-				84FD58EB2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests.xctest */,
-				84FD58F52A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests.xctest */,
+				84FD58D52A36721B006CB5FF /* Stack ,Table ,Collection Views.app */,
+				84FD58EB2A36721E006CB5FF /* Stack ,Table ,Collection ViewsTests.xctest */,
+				84FD58F52A36721E006CB5FF /* Stack ,Table ,Collection ViewsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */ = {
+		84FD58D42A36721B006CB5FF /* Stack ,Table ,Collection Views */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection Views" */;
+			buildConfigurationList = 84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Table ,Collection Views" */;
 			buildPhases = (
 				84FD58D12A36721B006CB5FF /* Sources */,
 				84FD58D22A36721B006CB5FF /* Frameworks */,
@@ -199,14 +199,14 @@
 			);
 			dependencies = (
 			);
-			name = "Stack ,Taple ,Collection Views";
+			name = "Stack ,Table ,Collection Views";
 			productName = FirstApp;
-			productReference = 84FD58D52A36721B006CB5FF /* Stack ,Taple ,Collection Views.app */;
+			productReference = 84FD58D52A36721B006CB5FF /* Stack ,Table ,Collection Views.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84FD58EA2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests */ = {
+		84FD58EA2A36721E006CB5FF /* Stack ,Table ,Collection ViewsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsTests" */;
+			buildConfigurationList = 84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Table ,Collection ViewsTests" */;
 			buildPhases = (
 				84FD58E72A36721E006CB5FF /* Sources */,
 				84FD58E82A36721E006CB5FF /* Frameworks */,
@@ -217,14 +217,14 @@
 			dependencies = (
 				84FD58ED2A36721E006CB5FF /* PBXTargetDependency */,
 			);
-			name = "Stack ,Taple ,Collection ViewsTests";
+			name = "Stack ,Table ,Collection ViewsTests";
 			productName = FirstAppTests;
-			productReference = 84FD58EB2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests.xctest */;
+			productReference = 84FD58EB2A36721E006CB5FF /* Stack ,Table ,Collection ViewsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84FD58F42A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests */ = {
+		84FD58F42A36721E006CB5FF /* Stack ,Table ,Collection ViewsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsUITests" */;
+			buildConfigurationList = 84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Table ,Collection ViewsUITests" */;
 			buildPhases = (
 				84FD58F12A36721E006CB5FF /* Sources */,
 				84FD58F22A36721E006CB5FF /* Frameworks */,
@@ -235,9 +235,9 @@
 			dependencies = (
 				84FD58F72A36721E006CB5FF /* PBXTargetDependency */,
 			);
-			name = "Stack ,Taple ,Collection ViewsUITests";
+			name = "Stack ,Table ,Collection ViewsUITests";
 			productName = FirstAppUITests;
-			productReference = 84FD58F52A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests.xctest */;
+			productReference = 84FD58F52A36721E006CB5FF /* Stack ,Table ,Collection ViewsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "Stack ,Taple ,Collection Views" */;
+			buildConfigurationList = 84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "Stack ,Table ,Collection Views" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,9 +276,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */,
-				84FD58EA2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests */,
-				84FD58F42A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests */,
+				84FD58D42A36721B006CB5FF /* Stack ,Table ,Collection Views */,
+				84FD58EA2A36721E006CB5FF /* Stack ,Table ,Collection ViewsTests */,
+				84FD58F42A36721E006CB5FF /* Stack ,Table ,Collection ViewsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -362,12 +362,12 @@
 /* Begin PBXTargetDependency section */
 		84FD58ED2A36721E006CB5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */;
+			target = 84FD58D42A36721B006CB5FF /* Stack ,Table ,Collection Views */;
 			targetProxy = 84FD58EC2A36721E006CB5FF /* PBXContainerItemProxy */;
 		};
 		84FD58F72A36721E006CB5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */;
+			target = 84FD58D42A36721B006CB5FF /* Stack ,Table ,Collection Views */;
 			targetProxy = 84FD58F62A36721E006CB5FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -583,7 +583,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack ,Taple ,Collection Views.app/Stack ,Taple ,Collection Views";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack ,Table ,Collection Views.app/Stack ,Table ,Collection Views";
 			};
 			name = Debug;
 		};
@@ -602,7 +602,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack ,Taple ,Collection Views.app/Stack ,Taple ,Collection Views";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack ,Table ,Collection Views.app/Stack ,Table ,Collection Views";
 			};
 			name = Release;
 		};
@@ -643,7 +643,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "Stack ,Taple ,Collection Views" */ = {
+		84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "Stack ,Table ,Collection Views" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD58FD2A36721E006CB5FF /* Debug */,
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection Views" */ = {
+		84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Table ,Collection Views" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD59002A36721E006CB5FF /* Debug */,
@@ -661,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsTests" */ = {
+		84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Table ,Collection ViewsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD59032A36721E006CB5FF /* Debug */,
@@ -670,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsUITests" */ = {
+		84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Table ,Collection ViewsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD59062A36721E006CB5FF /* Debug */,
