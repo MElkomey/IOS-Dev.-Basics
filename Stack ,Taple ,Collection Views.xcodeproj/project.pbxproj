@@ -20,6 +20,12 @@
 		845B30062A390CC8004D6C7E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30052A390CC8004D6C7E /* TableViewController.swift */; };
 		845B30082A3925C5004D6C7E /* HomeTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30072A3925C5004D6C7E /* HomeTableViewCellController.swift */; };
 		845B300A2A3928C3004D6C7E /* HomeFruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B30092A3928C3004D6C7E /* HomeFruitTableViewController.swift */; };
+		84B1A6BC2A3D102400F9C5CC /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1A6BB2A3D102400F9C5CC /* ProductViewController.swift */; };
+		84B1A6BE2A3D105B00F9C5CC /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1A6BD2A3D105B00F9C5CC /* ProductTableViewCell.swift */; };
+		84B1A6C02A3D107200F9C5CC /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1A6BF2A3D107200F9C5CC /* ProductCollectionViewCell.swift */; };
+		84F0CCB62A3CE473002B4FA4 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0CCB52A3CE473002B4FA4 /* PhotosViewController.swift */; };
+		84F0CCB82A3CE4A2002B4FA4 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0CCB72A3CE4A2002B4FA4 /* PhotosCollectionViewCell.swift */; };
+		84F0CCBA2A3CE4DD002B4FA4 /* PhotosCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0CCB92A3CE4DD002B4FA4 /* PhotosCollectionReusableView.swift */; };
 		84FD58D92A36721B006CB5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD58D82A36721B006CB5FF /* AppDelegate.swift */; };
 		84FD58DB2A36721B006CB5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD58DA2A36721B006CB5FF /* SceneDelegate.swift */; };
 		84FD58DD2A36721B006CB5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD58DC2A36721B006CB5FF /* ViewController.swift */; };
@@ -62,7 +68,13 @@
 		845B30052A390CC8004D6C7E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		845B30072A3925C5004D6C7E /* HomeTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCellController.swift; sourceTree = "<group>"; };
 		845B30092A3928C3004D6C7E /* HomeFruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFruitTableViewController.swift; sourceTree = "<group>"; };
-		84FD58D52A36721B006CB5FF /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B1A6BB2A3D102400F9C5CC /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		84B1A6BD2A3D105B00F9C5CC /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		84B1A6BF2A3D107200F9C5CC /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		84F0CCB52A3CE473002B4FA4 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		84F0CCB72A3CE4A2002B4FA4 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		84F0CCB92A3CE4DD002B4FA4 /* PhotosCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionReusableView.swift; sourceTree = "<group>"; };
+		84FD58D52A36721B006CB5FF /* Stack ,Taple ,Collection Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack ,Taple ,Collection Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD58D82A36721B006CB5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FD58DA2A36721B006CB5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84FD58DC2A36721B006CB5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,9 +82,9 @@
 		84FD58E12A36721D006CB5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FD58E42A36721E006CB5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FD58E62A36721E006CB5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84FD58EB2A36721E006CB5FF /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD58EB2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack ,Taple ,Collection ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD58EF2A36721E006CB5FF /* FirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppTests.swift; sourceTree = "<group>"; };
-		84FD58F52A36721E006CB5FF /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FD58F52A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack ,Taple ,Collection ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD58F92A36721E006CB5FF /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		84FD58FB2A36721E006CB5FF /* FirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,9 +127,9 @@
 		84FD58D62A36721B006CB5FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84FD58D52A36721B006CB5FF /* FirstApp.app */,
-				84FD58EB2A36721E006CB5FF /* FirstAppTests.xctest */,
-				84FD58F52A36721E006CB5FF /* FirstAppUITests.xctest */,
+				84FD58D52A36721B006CB5FF /* Stack ,Taple ,Collection Views.app */,
+				84FD58EB2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests.xctest */,
+				84FD58F52A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,10 +153,16 @@
 				842740552A3BB84700CDF8BD /* CitiesTableViewController.swift */,
 				842740572A3BB86800CDF8BD /* CitiesTableViewCell.swift */,
 				842740592A3BC1CE00CDF8BD /* CountriesViewController.swift */,
-				8427405B2A3BCC9500CDF8BD /* PlantsCollectionViewController.swift */,
 				8427405D2A3BCCB000CDF8BD /* PlantCollectionViewCell.swift */,
 				8427405F2A3BE4FE00CDF8BD /* SliderCollectionViewCell.swift */,
 				842740612A3BE52800CDF8BD /* SliderViewController.swift */,
+				8427405B2A3BCC9500CDF8BD /* PlantsCollectionViewController.swift */,
+				84F0CCB52A3CE473002B4FA4 /* PhotosViewController.swift */,
+				84F0CCB72A3CE4A2002B4FA4 /* PhotosCollectionViewCell.swift */,
+				84F0CCB92A3CE4DD002B4FA4 /* PhotosCollectionReusableView.swift */,
+				84B1A6BB2A3D102400F9C5CC /* ProductViewController.swift */,
+				84B1A6BD2A3D105B00F9C5CC /* ProductTableViewCell.swift */,
+				84B1A6BF2A3D107200F9C5CC /* ProductCollectionViewCell.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -169,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84FD58D42A36721B006CB5FF /* FirstApp */ = {
+		84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "FirstApp" */;
+			buildConfigurationList = 84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection Views" */;
 			buildPhases = (
 				84FD58D12A36721B006CB5FF /* Sources */,
 				84FD58D22A36721B006CB5FF /* Frameworks */,
@@ -181,14 +199,14 @@
 			);
 			dependencies = (
 			);
-			name = FirstApp;
+			name = "Stack ,Taple ,Collection Views";
 			productName = FirstApp;
-			productReference = 84FD58D52A36721B006CB5FF /* FirstApp.app */;
+			productReference = 84FD58D52A36721B006CB5FF /* Stack ,Taple ,Collection Views.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84FD58EA2A36721E006CB5FF /* FirstAppTests */ = {
+		84FD58EA2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "FirstAppTests" */;
+			buildConfigurationList = 84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsTests" */;
 			buildPhases = (
 				84FD58E72A36721E006CB5FF /* Sources */,
 				84FD58E82A36721E006CB5FF /* Frameworks */,
@@ -199,14 +217,14 @@
 			dependencies = (
 				84FD58ED2A36721E006CB5FF /* PBXTargetDependency */,
 			);
-			name = FirstAppTests;
+			name = "Stack ,Taple ,Collection ViewsTests";
 			productName = FirstAppTests;
-			productReference = 84FD58EB2A36721E006CB5FF /* FirstAppTests.xctest */;
+			productReference = 84FD58EB2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84FD58F42A36721E006CB5FF /* FirstAppUITests */ = {
+		84FD58F42A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "FirstAppUITests" */;
+			buildConfigurationList = 84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsUITests" */;
 			buildPhases = (
 				84FD58F12A36721E006CB5FF /* Sources */,
 				84FD58F22A36721E006CB5FF /* Frameworks */,
@@ -217,9 +235,9 @@
 			dependencies = (
 				84FD58F72A36721E006CB5FF /* PBXTargetDependency */,
 			);
-			name = FirstAppUITests;
+			name = "Stack ,Taple ,Collection ViewsUITests";
 			productName = FirstAppUITests;
-			productReference = 84FD58F52A36721E006CB5FF /* FirstAppUITests.xctest */;
+			productReference = 84FD58F52A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "FirstApp" */;
+			buildConfigurationList = 84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "Stack ,Taple ,Collection Views" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,9 +276,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84FD58D42A36721B006CB5FF /* FirstApp */,
-				84FD58EA2A36721E006CB5FF /* FirstAppTests */,
-				84FD58F42A36721E006CB5FF /* FirstAppUITests */,
+				84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */,
+				84FD58EA2A36721E006CB5FF /* Stack ,Taple ,Collection ViewsTests */,
+				84FD58F42A36721E006CB5FF /* Stack ,Taple ,Collection ViewsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				842740602A3BE4FE00CDF8BD /* SliderCollectionViewCell.swift in Sources */,
+				84F0CCB62A3CE473002B4FA4 /* PhotosViewController.swift in Sources */,
+				84B1A6C02A3D107200F9C5CC /* ProductCollectionViewCell.swift in Sources */,
+				84B1A6BE2A3D105B00F9C5CC /* ProductTableViewCell.swift in Sources */,
 				8427405E2A3BCCB000CDF8BD /* PlantCollectionViewCell.swift in Sources */,
 				841A44C62A3A9A6D0023CEFA /* NumbersViewController.swift in Sources */,
 				841A44C02A3A745B0023CEFA /* UsersViewController.swift in Sources */,
@@ -307,11 +328,14 @@
 				842740622A3BE52800CDF8BD /* SliderViewController.swift in Sources */,
 				842740582A3BB86800CDF8BD /* CitiesTableViewCell.swift in Sources */,
 				84FD58D92A36721B006CB5FF /* AppDelegate.swift in Sources */,
+				84F0CCB82A3CE4A2002B4FA4 /* PhotosCollectionViewCell.swift in Sources */,
 				84FD58DB2A36721B006CB5FF /* SceneDelegate.swift in Sources */,
 				842740562A3BB84700CDF8BD /* CitiesTableViewController.swift in Sources */,
 				841A44C22A3A8FBD0023CEFA /* ContactsViewController.swift in Sources */,
 				845B30062A390CC8004D6C7E /* TableViewController.swift in Sources */,
+				84F0CCBA2A3CE4DD002B4FA4 /* PhotosCollectionReusableView.swift in Sources */,
 				845B30082A3925C5004D6C7E /* HomeTableViewCellController.swift in Sources */,
+				84B1A6BC2A3D102400F9C5CC /* ProductViewController.swift in Sources */,
 				8427405A2A3BC1CE00CDF8BD /* CountriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,12 +362,12 @@
 /* Begin PBXTargetDependency section */
 		84FD58ED2A36721E006CB5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FD58D42A36721B006CB5FF /* FirstApp */;
+			target = 84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */;
 			targetProxy = 84FD58EC2A36721E006CB5FF /* PBXContainerItemProxy */;
 		};
 		84FD58F72A36721E006CB5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FD58D42A36721B006CB5FF /* FirstApp */;
+			target = 84FD58D42A36721B006CB5FF /* Stack ,Taple ,Collection Views */;
 			targetProxy = 84FD58F62A36721E006CB5FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,6 +517,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirstApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stack ,Taple ,Collection Views";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -522,6 +547,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirstApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stack ,Taple ,Collection Views";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -557,7 +583,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstApp.app/FirstApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack ,Taple ,Collection Views.app/Stack ,Taple ,Collection Views";
 			};
 			name = Debug;
 		};
@@ -576,7 +602,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstApp.app/FirstApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack ,Taple ,Collection Views.app/Stack ,Taple ,Collection Views";
 			};
 			name = Release;
 		};
@@ -617,7 +643,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "FirstApp" */ = {
+		84FD58D02A36721B006CB5FF /* Build configuration list for PBXProject "Stack ,Taple ,Collection Views" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD58FD2A36721E006CB5FF /* Debug */,
@@ -626,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "FirstApp" */ = {
+		84FD58FF2A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection Views" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD59002A36721E006CB5FF /* Debug */,
@@ -635,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "FirstAppTests" */ = {
+		84FD59022A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD59032A36721E006CB5FF /* Debug */,
@@ -644,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "FirstAppUITests" */ = {
+		84FD59052A36721E006CB5FF /* Build configuration list for PBXNativeTarget "Stack ,Taple ,Collection ViewsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FD59062A36721E006CB5FF /* Debug */,
