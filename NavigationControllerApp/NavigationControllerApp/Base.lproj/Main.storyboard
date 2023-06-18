@@ -34,7 +34,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="btnNavigate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wHO-nI-rS7"/>
+                                    <segue destination="kQl-Gv-Naa" kind="show" id="kU0-u3-PNZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,6 +49,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="FirstUI" id="Wx5-fz-fwT">
                         <barButtonItem key="backBarButtonItem" title="Back" id="OGG-5B-tk1"/>
+                        <barButtonItem key="leftBarButtonItem" image="power" catalog="system" id="b4e-5c-oLa">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="btnBarLogout:" destination="BYZ-38-t0r" id="u5g-7g-xOg"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -58,14 +64,14 @@
         <!--Second UI-->
         <scene sceneID="gdX-yh-cAC">
             <objects>
-                <viewController storyboardIdentifier="secondUIID" id="kQl-Gv-Naa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondUIID" id="kQl-Gv-Naa" customClass="SecondViewController" customModule="NavigationControllerApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S46-XY-fuN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="WE8-Pm-7wG"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Second UI" largeTitleDisplayMode="never" id="g5g-OE-OIJ"/>
+                    <navigationItem key="navigationItem" title="Second UI" id="g5g-OE-OIJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfS-qD-d71" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,8 +85,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="LO5-IJ-mny">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <textAttributes key="largeTitleTextAttributes">
+                        <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
@@ -95,6 +100,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="power" catalog="system" width="128" height="124"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
