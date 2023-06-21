@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="asv-h5-Jmv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Picker_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rbw-xl-6Fe">
+                                <rect key="frame" x="12" y="56" width="391" height="208"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDn-a3-vrw">
+                                <rect key="frame" x="43" y="357" width="327" height="31"/>
+                                <color key="backgroundColor" red="0.8382481853" green="0.57493350080000005" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get Data">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="grtCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="txn-20-cFu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zar-IO-wie">
+                                <rect key="frame" x="20" y="483" width="374" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FDn-a3-vrw" secondAttribute="trailing" constant="44" id="QGk-KK-32d"/>
+                            <constraint firstItem="rbw-xl-6Fe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Sjb-BT-6cE"/>
+                            <constraint firstItem="Zar-IO-wie" firstAttribute="top" secondItem="FDn-a3-vrw" secondAttribute="bottom" constant="95" id="Ww4-Me-y83"/>
+                            <constraint firstItem="FDn-a3-vrw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="gKr-Hk-rt5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zar-IO-wie" secondAttribute="trailing" constant="20" id="ivm-Qr-OE7"/>
+                            <constraint firstItem="FDn-a3-vrw" firstAttribute="top" secondItem="rbw-xl-6Fe" secondAttribute="bottom" constant="87" id="jCI-ww-NBK"/>
+                            <constraint firstItem="rbw-xl-6Fe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wo0-Wz-D0e"/>
+                            <constraint firstItem="Zar-IO-wie" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xEJ-Ui-Dq8"/>
+                            <constraint firstItem="rbw-xl-6Fe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="xVS-G2-qYq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblCity" destination="Zar-IO-wie" id="wHm-wf-spd"/>
+                        <outlet property="pickerCities" destination="rbw-xl-6Fe" id="F1o-zf-0vN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466.66666666666669" y="124.55357142857142"/>
+        </scene>
+        <!--Select City View Controller-->
+        <scene sceneID="mcZ-0s-16K">
+            <objects>
+                <viewController id="asv-h5-Jmv" customClass="SelectCityViewController" customModule="Picker_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="giH-iZ-8JT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="select city" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ue1-7b-e6r">
+                                <rect key="frame" x="20" y="64" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cPM-ne-RuC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ue1-7b-e6r" firstAttribute="top" secondItem="cPM-ne-RuC" secondAttribute="top" constant="20" id="Cao-KP-rqp"/>
+                            <constraint firstItem="cPM-ne-RuC" firstAttribute="trailing" secondItem="Ue1-7b-e6r" secondAttribute="trailing" constant="20" id="pmT-44-oZe"/>
+                            <constraint firstItem="Ue1-7b-e6r" firstAttribute="leading" secondItem="cPM-ne-RuC" secondAttribute="leading" constant="20" id="vUJ-es-G78"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtFieldSelectCity" destination="Ue1-7b-e6r" id="Pg1-F1-afW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJq-j9-rl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1334.7826086956522" y="124.55357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

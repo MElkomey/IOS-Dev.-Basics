@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Slider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="20" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="fGg-tP-t7E">
+                                <rect key="frame" x="18" y="309" width="378" height="31"/>
+                                <imageReference key="minimumValueImage" image="pencil" catalog="system" symbolScale="small"/>
+                                <imageReference key="maximumValueImage" image="pencil" catalog="system" symbolScale="large"/>
+                                <color key="minimumTrackTintColor" red="0.40691790179999998" green="1" blue="0.27601306959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="0.0" blue="0.076844155309999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sliderChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="AOu-I3-vad"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Slider" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DD9-Qt-hhx">
+                                <rect key="frame" x="20" y="441" width="374" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fGg-tP-t7E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4z4-WU-XDN"/>
+                            <constraint firstItem="DD9-Qt-hhx" firstAttribute="top" secondItem="fGg-tP-t7E" secondAttribute="bottom" constant="102" id="9iD-xC-tBT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fGg-tP-t7E" secondAttribute="trailing" constant="20" id="AzF-0Q-qHW"/>
+                            <constraint firstItem="DD9-Qt-hhx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="H1v-pg-8rG"/>
+                            <constraint firstItem="DD9-Qt-hhx" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="IkS-Nb-QuF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblSlider" destination="DD9-Qt-hhx" id="8ZV-ld-DAD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
