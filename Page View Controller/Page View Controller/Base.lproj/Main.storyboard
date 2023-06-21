@@ -42,6 +42,10 @@
                             <constraint firstItem="iPB-Jz-hwO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uwr-2c-50N"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblDescreption" destination="iPB-Jz-hwO" id="GZr-B8-RrQ"/>
+                        <outlet property="lblTitle" destination="qTB-sj-zTA" id="X44-qL-9AO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

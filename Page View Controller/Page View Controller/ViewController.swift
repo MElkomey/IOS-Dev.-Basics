@@ -9,9 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblTitle: UILabel!
+    
+    @IBOutlet weak var lblDescreption: UILabel!
+    
+    var titleText :String?
+    var descreptionText :String?
+    var bgColor :UIColor?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        if let title = titleText {
+            lblTitle.text = title
+        }
+        
+        if let descreption = descreptionText {
+            lblDescreption.text = descreption
+        }
+        
+        if let color = bgColor {
+            view.backgroundColor = color
+        }
     }
 
 

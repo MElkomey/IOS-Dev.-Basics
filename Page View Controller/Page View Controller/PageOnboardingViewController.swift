@@ -16,13 +16,30 @@ class PageOnboardingViewController: UIPageViewController, UIPageViewControllerDe
         //for indicator background color ,if your all pages has the same background color
         //view.backgroundColor = UIColor.red
         
-        let vc1 = self.storyboard?.instantiateViewController(withIdentifier: "page1")
-        let vc2 = self.storyboard?.instantiateViewController(withIdentifier: "page2")
-        let vc3 = self.storyboard?.instantiateViewController(withIdentifier: "page3")
+        //by multible view controllers
+//        let vc1 = self.storyboard?.instantiateViewController(withIdentifier: "page1")
+//        let vc2 = self.storyboard?.instantiateViewController(withIdentifier: "page2")
+//        let vc3 = self.storyboard?.instantiateViewController(withIdentifier: "page3")
+
+        //by only one view controller
+        let vc1 = self.storyboard?.instantiateViewController(withIdentifier: "page1") as! ViewController
+        vc1.titleText = "FirstUI"
+        vc1.descreptionText = "First discreption"
+        vc1.bgColor = UIColor.red
         
-        arrContainers.append(vc1!)
-        arrContainers.append(vc2!)
-        arrContainers.append(vc3!)
+        let vc2 = self.storyboard?.instantiateViewController(withIdentifier: "page1") as! ViewController
+        vc2.titleText = "SecondUI"
+        vc2.descreptionText = "Second discreption"
+        vc2.bgColor = UIColor.magenta
+        
+        let vc3 = self.storyboard?.instantiateViewController(withIdentifier: "page1") as! ViewController
+        vc3.titleText = "ThirdUI"
+        vc3.descreptionText = "Third discreption"
+        vc3.bgColor = UIColor.cyan
+        
+                arrContainers.append(vc1)
+                arrContainers.append(vc2)
+                arrContainers.append(vc3)
         
         delegate = self
         dataSource = self
@@ -36,20 +53,19 @@ class PageOnboardingViewController: UIPageViewController, UIPageViewControllerDe
     
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        guard let currentIndex = arrContainers.firstIndex(of: viewController) else{
-            return nil
-        }
+        //LTR
+//        guard let currentIndex = arrContainers.firstIndex(of: viewController) else{
+//            return nil
+//        }
+//
+//        let previousIndex = currentIndex-1
+//        guard  previousIndex >= 0 else{
+//            return nil
+//        }
+//
+//        return arrContainers[previousIndex]
         
-        let previousIndex = currentIndex-1
-        guard  previousIndex >= 0 else{
-            return nil
-        }
-        
-        return arrContainers[previousIndex]
-        
-    }
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        
+        //RTL
         guard let currentIndex = arrContainers.firstIndex(of: viewController) else{
             return nil
         }
@@ -58,6 +74,31 @@ class PageOnboardingViewController: UIPageViewController, UIPageViewControllerDe
             return nil
         }
         return arrContainers[nextIndex]
+        
+    }
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        //LTR
+//        guard let currentIndex = arrContainers.firstIndex(of: viewController) else{
+//            return nil
+//        }
+//        let nextIndex = currentIndex+1
+//        guard nextIndex < arrContainers.count else{
+//            return nil
+//        }
+//        return arrContainers[nextIndex]
+        
+        //RTL
+        guard let currentIndex = arrContainers.firstIndex(of: viewController) else{
+            return nil
+        }
+
+        let previousIndex = currentIndex-1
+        guard  previousIndex >= 0 else{
+            return nil
+        }
+
+        return arrContainers[previousIndex]
+        
 //        if let currentIndex = arrContainers.firstIndex(of: viewController) {
 //            if currentIndex < arrContainers.count-1{
 //                return arrContainers[currentIndex+1]
@@ -81,7 +122,7 @@ class PageOnboardingViewController: UIPageViewController, UIPageViewControllerDe
     func addPageControl(){
         pageControl = UIPageControl(frame: CGRect(x: 0, y: UIScreen.main.bounds.maxY - 75, width: UIScreen.main.bounds.width, height: 50))
         self.pageControl.numberOfPages = arrContainers.count
-        self.pageControl.currentPage = 0
+        self.pageControl.currentPage = arrContainers.count - 1
         self.pageControl.tintColor = UIColor.white
         self.pageControl.pageIndicatorTintColor = UIColor.gray
         self.pageControl.currentPageIndicatorTintColor = UIColor.white
@@ -91,8 +132,10 @@ class PageOnboardingViewController: UIPageViewController, UIPageViewControllerDe
     
     // this func will be called if action happend in page view controller
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
-        
-        self.pageControl.currentPage = arrContainers.firstIndex(of: pageViewController.viewControllers![0])!
+        //LTR
+       // self.pageControl.currentPage = arrContainers.firstIndex(of: pageViewController.viewControllers![0])!
+        //RTL
+        self.pageControl.currentPage = (arrContainers.count-1)-(arrContainers.firstIndex(of: pageViewController.viewControllers![0])!)
     }
     
     
