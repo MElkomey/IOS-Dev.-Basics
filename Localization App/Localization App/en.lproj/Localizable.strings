@@ -1,0 +1,8 @@
+
+// press localize ->
+
+//"key" : "value" ;
+
+//home page strings
+"hello" = "Hello to my app" ;
+"changeLanguage" = "Change Language" ;
