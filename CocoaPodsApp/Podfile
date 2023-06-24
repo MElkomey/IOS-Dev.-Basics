@@ -1,0 +1,17 @@
+
+ platform :ios, '11.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://cocoapods-cdn.netlify.app/'
+
+
+target 'CocoaPodsApp' do
+  
+  use_frameworks!
+
+  pod 'NVActivityIndicatorView'
+
+end
+
+#go to cocoapods screenshot for solution
+

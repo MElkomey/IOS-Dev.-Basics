@@ -4,3 +4,12 @@
 // home page strings
 "hello" = "مرحبا بك" ;
 "changeLanguage" = "تغيير اللغة" ;
+"openCamera" = "افتح الكاميرا" ;
+//to get all NSLocalizedStrings in your app and put them automatically in localize files by one terminal line
+//1 - go to your app files in finder
+//2- choose the file which contains directly info.plist
+//3 - open file in terminal
+//4- write for english file :
+// genstrings -o en.lproj *.swift
+//4-write for arabic file :
+// genstrings -o ar.lproj *.swift

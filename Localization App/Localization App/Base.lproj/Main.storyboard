@@ -37,20 +37,46 @@
                                     <action selector="btnChangeLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AeL-qz-340"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVI-XS-a5j">
+                                <rect key="frame" x="20" y="609" width="374" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="WG3-bP-n7g"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                    <color key="baseBackgroundColor" red="0.0" green="0.041721490389999998" blue="0.081362322340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnChangeLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MOn-Vj-ltd"/>
+                                    <action selector="btnOpenCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jrq-tS-64c"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="first item respect language disabled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tI-3t-nvS">
+                                <rect key="frame" x="20" y="44" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WRS-Ae-izR" secondAttribute="trailing" constant="20" id="5u0-mm-pBz"/>
                             <constraint firstItem="zhg-rI-KWw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7si-7W-kJW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UVI-XS-a5j" secondAttribute="trailing" constant="20" id="9Sg-2d-HIK"/>
+                            <constraint firstItem="UVI-XS-a5j" firstAttribute="top" secondItem="WRS-Ae-izR" secondAttribute="bottom" constant="33" id="DRW-qc-aLu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zhg-rI-KWw" secondAttribute="trailing" constant="20" id="OKZ-NE-3OP"/>
                             <constraint firstItem="WRS-Ae-izR" firstAttribute="top" secondItem="zhg-rI-KWw" secondAttribute="bottom" constant="79.5" id="PiM-g6-Lyt"/>
+                            <constraint firstItem="UVI-XS-a5j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VmF-8Y-pe9"/>
                             <constraint firstItem="WRS-Ae-izR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XRh-8Z-fDb"/>
+                            <constraint firstItem="6tI-3t-nvS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dGW-Yj-Rg5"/>
                             <constraint firstItem="zhg-rI-KWw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hAA-vW-t4I"/>
+                            <constraint firstItem="6tI-3t-nvS" firstAttribute="left" secondItem="6Tk-OE-BBY" secondAttribute="left" constant="20" id="zL7-3F-awl"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="btnChangeLang" destination="WRS-Ae-izR" id="6Fr-tj-CW4"/>
+                        <outlet property="btnOpenCam" destination="UVI-XS-a5j" id="xs6-9N-nrf"/>
                         <outlet property="lblHello" destination="zhg-rI-KWw" id="0bv-qr-nif"/>
                     </connections>
                 </viewController>

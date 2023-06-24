@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Localization App
+
+  Created by Mohamed Elkomey on 23/06/2023.
+  
+*/
+
+// for app name in multi languages and permissions messages
+
+// app name
+"CFBundleName" = "تطبيقى";
+// camera permision you get key from info.plist as xml after add your permission
+"NSCameraUsageDescription" = "التطبيق يحتاج للوصول الى الكاميرا الخاصة بك لكى ";
