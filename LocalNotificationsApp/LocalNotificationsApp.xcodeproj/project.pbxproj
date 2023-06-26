@@ -7,37 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8439BEFA2A4790A300948DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BEF92A4790A300948DBF /* AppDelegate.swift */; };
-		8439BEFC2A4790A300948DBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BEFB2A4790A300948DBF /* SceneDelegate.swift */; };
-		8439BEFE2A4790A300948DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BEFD2A4790A300948DBF /* ViewController.swift */; };
-		8439BF012A4790A300948DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8439BEFF2A4790A300948DBF /* Main.storyboard */; };
-		8439BF032A4790A500948DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8439BF022A4790A500948DBF /* Assets.xcassets */; };
-		8439BF062A4790A500948DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8439BF042A4790A500948DBF /* LaunchScreen.storyboard */; };
-		8439BF0E2A479B4400948DBF /* AccessUserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BF0D2A479B4400948DBF /* AccessUserLocationViewController.swift */; };
-		8439BF102A47B0BE00948DBF /* SearchPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439BF0F2A47B0BE00948DBF /* SearchPlaceViewController.swift */; };
-		848AF1472A48F30800C4D9E2 /* LocationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AF1462A48F30800C4D9E2 /* LocationInfoViewController.swift */; };
-		848AF1492A48FAE700C4D9E2 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AF1482A48FAE700C4D9E2 /* DirectionsViewController.swift */; };
-		848AF14B2A491D4600C4D9E2 /* CustomMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AF14A2A491D4600C4D9E2 /* CustomMapViewController.swift */; };
+		848AF1592A49267300C4D9E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AF1582A49267300C4D9E2 /* AppDelegate.swift */; };
+		848AF15B2A49267300C4D9E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AF15A2A49267300C4D9E2 /* SceneDelegate.swift */; };
+		848AF15D2A49267300C4D9E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AF15C2A49267300C4D9E2 /* ViewController.swift */; };
+		848AF1602A49267300C4D9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AF15E2A49267300C4D9E2 /* Main.storyboard */; };
+		848AF1622A49267700C4D9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848AF1612A49267700C4D9E2 /* Assets.xcassets */; };
+		848AF1652A49267700C4D9E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AF1632A49267700C4D9E2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8439BEF62A4790A300948DBF /* Map Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8439BEF92A4790A300948DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8439BEFB2A4790A300948DBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8439BEFD2A4790A300948DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8439BF002A4790A300948DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8439BF022A4790A500948DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8439BF052A4790A500948DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8439BF072A4790A500948DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8439BF0D2A479B4400948DBF /* AccessUserLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessUserLocationViewController.swift; sourceTree = "<group>"; };
-		8439BF0F2A47B0BE00948DBF /* SearchPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceViewController.swift; sourceTree = "<group>"; };
-		848AF1462A48F30800C4D9E2 /* LocationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoViewController.swift; sourceTree = "<group>"; };
-		848AF1482A48FAE700C4D9E2 /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
-		848AF14A2A491D4600C4D9E2 /* CustomMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapViewController.swift; sourceTree = "<group>"; };
+		848AF1552A49267300C4D9E2 /* LocalNotificationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotificationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848AF1582A49267300C4D9E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848AF15A2A49267300C4D9E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		848AF15C2A49267300C4D9E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848AF15F2A49267300C4D9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848AF1612A49267700C4D9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848AF1642A49267700C4D9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848AF1662A49267700C4D9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8439BEF32A4790A300948DBF /* Frameworks */ = {
+		848AF1522A49267300C4D9E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,77 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8439BEED2A4790A300948DBF = {
+		848AF14C2A49267300C4D9E2 = {
 			isa = PBXGroup;
 			children = (
-				8439BEF82A4790A300948DBF /* Map Kit */,
-				8439BEF72A4790A300948DBF /* Products */,
+				848AF1572A49267300C4D9E2 /* LocalNotificationsApp */,
+				848AF1562A49267300C4D9E2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8439BEF72A4790A300948DBF /* Products */ = {
+		848AF1562A49267300C4D9E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8439BEF62A4790A300948DBF /* Map Kit.app */,
+				848AF1552A49267300C4D9E2 /* LocalNotificationsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8439BEF82A4790A300948DBF /* Map Kit */ = {
+		848AF1572A49267300C4D9E2 /* LocalNotificationsApp */ = {
 			isa = PBXGroup;
 			children = (
-				8439BEF92A4790A300948DBF /* AppDelegate.swift */,
-				8439BEFB2A4790A300948DBF /* SceneDelegate.swift */,
-				8439BEFD2A4790A300948DBF /* ViewController.swift */,
-				8439BEFF2A4790A300948DBF /* Main.storyboard */,
-				8439BF022A4790A500948DBF /* Assets.xcassets */,
-				8439BF042A4790A500948DBF /* LaunchScreen.storyboard */,
-				8439BF072A4790A500948DBF /* Info.plist */,
-				8439BF0D2A479B4400948DBF /* AccessUserLocationViewController.swift */,
-				8439BF0F2A47B0BE00948DBF /* SearchPlaceViewController.swift */,
-				848AF1462A48F30800C4D9E2 /* LocationInfoViewController.swift */,
-				848AF1482A48FAE700C4D9E2 /* DirectionsViewController.swift */,
-				848AF14A2A491D4600C4D9E2 /* CustomMapViewController.swift */,
+				848AF1582A49267300C4D9E2 /* AppDelegate.swift */,
+				848AF15A2A49267300C4D9E2 /* SceneDelegate.swift */,
+				848AF15C2A49267300C4D9E2 /* ViewController.swift */,
+				848AF15E2A49267300C4D9E2 /* Main.storyboard */,
+				848AF1612A49267700C4D9E2 /* Assets.xcassets */,
+				848AF1632A49267700C4D9E2 /* LaunchScreen.storyboard */,
+				848AF1662A49267700C4D9E2 /* Info.plist */,
 			);
-			path = "Map Kit";
+			path = LocalNotificationsApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8439BEF52A4790A300948DBF /* Map Kit */ = {
+		848AF1542A49267300C4D9E2 /* LocalNotificationsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8439BF0A2A4790A500948DBF /* Build configuration list for PBXNativeTarget "Map Kit" */;
+			buildConfigurationList = 848AF1692A49267700C4D9E2 /* Build configuration list for PBXNativeTarget "LocalNotificationsApp" */;
 			buildPhases = (
-				8439BEF22A4790A300948DBF /* Sources */,
-				8439BEF32A4790A300948DBF /* Frameworks */,
-				8439BEF42A4790A300948DBF /* Resources */,
+				848AF1512A49267300C4D9E2 /* Sources */,
+				848AF1522A49267300C4D9E2 /* Frameworks */,
+				848AF1532A49267300C4D9E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Map Kit";
-			productName = "Map Kit";
-			productReference = 8439BEF62A4790A300948DBF /* Map Kit.app */;
+			name = LocalNotificationsApp;
+			productName = LocalNotificationsApp;
+			productReference = 848AF1552A49267300C4D9E2 /* LocalNotificationsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8439BEEE2A4790A300948DBF /* Project object */ = {
+		848AF14D2A49267300C4D9E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					8439BEF52A4790A300948DBF = {
+					848AF1542A49267300C4D9E2 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 8439BEF12A4790A300948DBF /* Build configuration list for PBXProject "Map Kit" */;
+			buildConfigurationList = 848AF1502A49267300C4D9E2 /* Build configuration list for PBXProject "LocalNotificationsApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,60 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 8439BEED2A4790A300948DBF;
-			productRefGroup = 8439BEF72A4790A300948DBF /* Products */;
+			mainGroup = 848AF14C2A49267300C4D9E2;
+			productRefGroup = 848AF1562A49267300C4D9E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8439BEF52A4790A300948DBF /* Map Kit */,
+				848AF1542A49267300C4D9E2 /* LocalNotificationsApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8439BEF42A4790A300948DBF /* Resources */ = {
+		848AF1532A49267300C4D9E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8439BF062A4790A500948DBF /* LaunchScreen.storyboard in Resources */,
-				8439BF032A4790A500948DBF /* Assets.xcassets in Resources */,
-				8439BF012A4790A300948DBF /* Main.storyboard in Resources */,
+				848AF1652A49267700C4D9E2 /* LaunchScreen.storyboard in Resources */,
+				848AF1622A49267700C4D9E2 /* Assets.xcassets in Resources */,
+				848AF1602A49267300C4D9E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8439BEF22A4790A300948DBF /* Sources */ = {
+		848AF1512A49267300C4D9E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848AF14B2A491D4600C4D9E2 /* CustomMapViewController.swift in Sources */,
-				8439BEFE2A4790A300948DBF /* ViewController.swift in Sources */,
-				8439BEFA2A4790A300948DBF /* AppDelegate.swift in Sources */,
-				848AF1472A48F30800C4D9E2 /* LocationInfoViewController.swift in Sources */,
-				8439BF0E2A479B4400948DBF /* AccessUserLocationViewController.swift in Sources */,
-				8439BEFC2A4790A300948DBF /* SceneDelegate.swift in Sources */,
-				848AF1492A48FAE700C4D9E2 /* DirectionsViewController.swift in Sources */,
-				8439BF102A47B0BE00948DBF /* SearchPlaceViewController.swift in Sources */,
+				848AF15D2A49267300C4D9E2 /* ViewController.swift in Sources */,
+				848AF1592A49267300C4D9E2 /* AppDelegate.swift in Sources */,
+				848AF15B2A49267300C4D9E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8439BEFF2A4790A300948DBF /* Main.storyboard */ = {
+		848AF15E2A49267300C4D9E2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8439BF002A4790A300948DBF /* Base */,
+				848AF15F2A49267300C4D9E2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8439BF042A4790A500948DBF /* LaunchScreen.storyboard */ = {
+		848AF1632A49267700C4D9E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8439BF052A4790A500948DBF /* Base */,
+				848AF1642A49267700C4D9E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -186,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8439BF082A4790A500948DBF /* Debug */ = {
+		848AF1672A49267700C4D9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		8439BF092A4790A500948DBF /* Release */ = {
+		848AF1682A49267700C4D9E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +282,7 @@
 			};
 			name = Release;
 		};
-		8439BF0B2A4790A500948DBF /* Debug */ = {
+		848AF16A2A49267700C4D9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -310,22 +290,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Map Kit/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = MapKIT;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "to determine your location";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to determine your location";
+				INFOPLIST_FILE = LocalNotificationsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Map-Kit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Elkomey.LocalNotificationsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		8439BF0C2A4790A500948DBF /* Release */ = {
+		848AF16B2A49267700C4D9E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -341,22 +318,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Map Kit/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = MapKIT;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "to determine your location";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to determine your location";
+				INFOPLIST_FILE = LocalNotificationsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Elkomey.Map-Kit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Elkomey.LocalNotificationsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -367,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8439BEF12A4790A300948DBF /* Build configuration list for PBXProject "Map Kit" */ = {
+		848AF1502A49267300C4D9E2 /* Build configuration list for PBXProject "LocalNotificationsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8439BF082A4790A500948DBF /* Debug */,
-				8439BF092A4790A500948DBF /* Release */,
+				848AF1672A49267700C4D9E2 /* Debug */,
+				848AF1682A49267700C4D9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8439BF0A2A4790A500948DBF /* Build configuration list for PBXNativeTarget "Map Kit" */ = {
+		848AF1692A49267700C4D9E2 /* Build configuration list for PBXNativeTarget "LocalNotificationsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8439BF0B2A4790A500948DBF /* Debug */,
-				8439BF0C2A4790A500948DBF /* Release */,
+				848AF16A2A49267700C4D9E2 /* Debug */,
+				848AF16B2A49267700C4D9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8439BEEE2A4790A300948DBF /* Project object */;
+	rootObject = 848AF14D2A49267300C4D9E2 /* Project object */;
 }

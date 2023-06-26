@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LocalNotificationsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzG-Eb-KlX">
+                                <rect key="frame" x="20" y="437.5" width="374" height="31"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Send Notification">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnSendNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NyO-QK-Iz6"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="5TG-gU-yDa">
+                                <rect key="frame" x="104" y="500" width="207" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="1EV-Io-jKG"/>
+                                </constraints>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwo-aN-CTd">
+                                <rect key="frame" x="145" y="330" width="144" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="3Cd-D4-et3"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Delete notification"/>
+                                <connections>
+                                    <action selector="btnDeleteNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qx7-jc-g4V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hzG-Eb-KlX" firstAttribute="top" secondItem="mwo-aN-CTd" secondAttribute="bottom" constant="76.5" id="AwQ-A4-uZK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5TG-gU-yDa" secondAttribute="trailing" constant="103" id="JK1-Xn-QV6"/>
+                            <constraint firstItem="5TG-gU-yDa" firstAttribute="top" secondItem="hzG-Eb-KlX" secondAttribute="bottom" constant="31.5" id="L05-Dh-SDr"/>
+                            <constraint firstItem="hzG-Eb-KlX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NHd-19-VVb"/>
+                            <constraint firstItem="hzG-Eb-KlX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QsE-8z-WJT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mwo-aN-CTd" secondAttribute="trailing" constant="125" id="Xrn-NL-yOg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hzG-Eb-KlX" secondAttribute="trailing" constant="20" id="jjf-gs-dxA"/>
+                            <constraint firstItem="hzG-Eb-KlX" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="peW-ly-Wch"/>
+                            <constraint firstItem="mwo-aN-CTd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="145" id="ts7-lk-oAk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="5TG-gU-yDa" id="zHu-4a-CFL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
